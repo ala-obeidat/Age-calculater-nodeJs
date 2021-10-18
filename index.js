@@ -1,7 +1,6 @@
 /* jshint esversion: 9 */
 
-const PORT = process.env.PORT || 5000;
-const axios = require('axios');
+const PORT = process.env.PORT || 80;
 const express = require('express');
 
 const app = express();
